@@ -14,7 +14,7 @@
   background: #e0e0e0;
   border-radius: 5px;
   width: 100%; /* Full width */
-  max-width: 500px; /* Limit max width */
+  max-width: 100%; /* Limit max width */
 }
 
 .progress-done {
@@ -297,6 +297,7 @@ nav ul li a {
   width: 80%;
   margin: auto;
   color: #fff;
+ 
 }
 
 h2 {
@@ -305,6 +306,7 @@ h2 {
   text-transform: uppercase;
   border-bottom: 2px solid #fff;
   display: inline-block;
+  
 }
 
 .skill-bar {
@@ -339,6 +341,7 @@ p {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding:  20px;
 }
 
 .circle {
@@ -350,6 +353,7 @@ p {
   justify-content: center;
   align-items: center;
   position: relative;
+
 }
 
 .inner-circle {
